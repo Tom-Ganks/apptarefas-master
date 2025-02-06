@@ -137,6 +137,7 @@ class _CadastroTarefaState extends State<CadastroTarefa> {
                       const SizedBox(height: 16),
                       // Campo Descrição
                       TextFormField(
+                        maxLines: 5,
                         controller: descricaoController,
                         decoration: InputDecoration(
                           labelText: 'Descrição',
